@@ -1,0 +1,17 @@
+{
+  "name": "wireframe",
+  "version": "1.0.0",
+  "description": "Development init setup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shazahanul islam shohag",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.0.0"
+  }
+}
