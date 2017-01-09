@@ -19,5 +19,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.0.0",
     "gulp-uglify": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-imagemin": "^3.1.1"
   }
 }
