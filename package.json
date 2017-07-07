@@ -1,26 +1,36 @@
 {
-  "name": "wireframe",
+  "name": "quickstart",
   "version": "1.0.0",
-  "description": "Development init setup.",
-  "main": "index.js",
+  "description": "HTML QuickStart pack powred by Gulp and SASS",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp"
   },
-  "author": "Shazahanul islam shohag",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shohag121/QuickStart.git"
+  },
+  "keywords": [
+    "gulp",
+    "quickstart"
+  ],
+  "author": "Shazahanul Islam Shohag",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shohag121/QuickStart/issues"
+  },
+  "homepage": "https://github.com/shohag121/QuickStart#readme",
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
-    "browser-sync": "^2.18.5",
-    "del": "^2.2.2",
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
+    "gulp-autoprefixer": "^4.0.0",
     "gulp-compass": "^2.1.0",
+    "gulp-imagemin": "^3.3.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.0.0",
-    "gulp-uglify": "^2.0.0"
-  },
-  "dependencies": {
-    "gulp-imagemin": "^3.1.1"
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
